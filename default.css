@@ -38,10 +38,13 @@ p, ul, ol {
 
 a:link {
 	color: #4E8006;
+	
 }
 
 a:hover, a:active {
 	text-decoration: none;
+	font-variant:small-caps;
+	font-size:12px;
 	color: #4E8006;
 }
 
@@ -129,8 +132,8 @@ input, textarea, select {
 
 #menu a:hover { 
 	text-decoration: none; 
-	color:darkgreen};
-
+	color: #FFFFFF;
+}
 
 #menu .current_page_item a {
 	color: #FFFFFF;
@@ -149,14 +152,13 @@ input, textarea, select {
 	width: 820px;
 	height: 200px;
 	margin: 0 auto;
-	background: url(images/headerlogo1.jpg) no-repeat left top;
+	background: url(images/finnal.gif) no-repeat left top;
 }
 
 #logo h1, #logo h2 {
 	float: left;
 	margin: 0;
 	padding: 0 0 0 20px;
-
 	line-height: normal;
 }
 
@@ -165,15 +167,16 @@ input, textarea, select {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size:36px;
 	font-style: italic;
-		color: white;
+	color: white;
 }
 
 #logo h1 a {
 	text-decoration: none;
+		font-size:36px;
 	color: #FFFFFF; 
 }
 
-#logo h1 a:hover { text-decoration: underline; }
+#logo h1 a:hover { text-decoration: underline;	font-size:36px; }
 
 #logo h2 {
 	padding: 115px 0 0 5px;
@@ -189,7 +192,6 @@ input, textarea, select {
 #logo p a:hover { text-decoration: underline; }
 
 
-
 /* Page */
 
 #page {
@@ -200,9 +202,9 @@ input, textarea, select {
 /* Content */
 
 #content {
-	float: left;
-	width: 825px;
-	background: url(images/img10.jpg) no-repeat left top;
+	float: right;
+	width: 620px;
+	
 }
 
 /* Post */
@@ -377,14 +379,11 @@ html>body #footer {
 	clear: both;
 	padding-top: 10px;
 	text-align: center;
-	color: #fff;
+	color: #999999;
 }
 
 #legal a {
 	color: #999999;
 }
-input,textarea,select{width:250px;height:30px;}
 
-select{width:250px;height:30px;}
-textarea{height:80px}
-input[type=submit]{width:150px;height:39px;}
+
